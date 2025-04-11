@@ -18,7 +18,7 @@ public class Doctors {
                 ResultSet resultSet = preparedStatement.executeQuery();
                 System.out.println("Doctors: ");
                 System.out.println("+-------------------+-----------------------------+--------------------------------+");
-                System.out.println("| Doctor_ID       | Doctor_Name             | Specialization                 |");
+                System.out.println("| Doctor_ID         | Doctor_Name                 | Specialization                 |");
                 System.out.println("+-------------------+-----------------------------+--------------------------------+");
                 while (resultSet.next()) {
                     int id = resultSet.getInt("Doctor_ID");
